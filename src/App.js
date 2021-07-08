@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Route exact path="/" component={Home} />
-      <Route path="/favorites" component={Favorites} />
     </div>
   );
 }
